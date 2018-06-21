@@ -1,0 +1,61 @@
+.boton {
+text-align: center;
+}
+
+button {
+background-color: #335BFF;
+padding: 10px;
+font-weight: 90;
+font-size: 18px;   
+border-radius: 6px;
+border: 2px solid #0016b0;
+}
+
+.container {
+    border: black 1px solid;
+    margin: 60px;
+}
+body {
+    font-family: Arial;
+    font-weight: none;
+}
+
+.boton1 {
+    text-align: center;
+    top: 20px; 
+    left: 50px;
+    right: 50px;
+}
+
+.encabezado {
+    display: block;
+    background-color: #E1C7BE;
+    margin-top: -19px;
+   }
+
+   .derecha {
+    float: right;
+    padding-right: 50px;
+   }
+   .derecha1 {
+    float: right;
+   }
+   .derecha2 {
+    float: right;
+   }
+   .derecha3 {
+    float: right;
+    padding-bottom: 30px;
+    
+    
+   }
+   .columna {
+    float: right;
+    padding-right: -20px;
+    padding-top: 50px;
+    width: 3%;
+   }
+
+   .derechaa {
+    float: right;
+   }

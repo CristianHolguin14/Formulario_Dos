@@ -2,21 +2,30 @@
 <html> 
 <head>     
     <title>Formulario</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body> 
-   <p>
-<button>Acceder" Al Formulario</button>  
- </>
+<header>
+<div class="boton">
+<button type="submit" class="boton1">Acceder Al Formulario</button>  
+</div>
+</header>
+<body>
+  <section class="container">
+    <section class="encabezado">
+    <form>
 <p><strong><h3>Fecha De Solicitud</h3></strong></p>
 <input type="date" placeholder="mm/dd/yyyy">
+</section>
 <p><strong><h3>Nombre Completo</h3></strong></p>
 <input type="text" placeholder="Pepito Perez">
 <p><strong><h3>Correo Electronico</h3></strong></p>
 <input type="email" placeholder="alguien@example.com">
+<div class="derecha">
 <p><strong><h3>Fecha De Nacimiento</h3></strong></p>
 <input type="date" placeholder="mm/dd/yyyy">
 <p><strong><h3>Telefono</h3></strong></p>
 <input type="phone" placeholder="5557776">
+</div>
 <p><strong><h3>Seleccione Su Genero</h3></strong></p>
 <input type="radio"> <strong>Masculino</strong> <input type="radio"> <strong>Femenino</strong><input type="radio"> <strong>Otro</strong>
  <p>
@@ -58,9 +67,10 @@
    <option>Vichada</option>
 </select>
   </p>
+<div class="columna">
   <p><h3>Ciudad</h3></p>
 <select>
-    <option>Selecciona "Una Ciudad</option>
+    <option>Selecciona Una Ciudad</option>
     <option value="1">Abriaqui</option>
 <option value="2">Acaías</option>
 <option value="3">Acandí</option>
@@ -1153,7 +1163,7 @@
 <option value="1090">Zapayán (PUNTA DE PIEDRAS)</option>
 <option value="1091">Zaragoza</option>
 <option value="1092">Zarzal</option>
-<option value="1093"Zetaquirá</option>
+<option value="1093">Zetaquira</option>
 <option value="1094">Zipacón</option>
 <option value="1095">Zipaquirá</option>
 <option value="1096">Zona Bananera (PRADO - SEVILLA)</option>
@@ -1161,10 +1171,47 @@
 <option value="1098">Íquira</option>
 <option value="1099">Úmbita</option>
 <option value="1100">Útica</option>
-    </p>
-
+</select>
+</option>
+    </div>
     <p><strong><h3>Direccion</h3></strong></p>
-
-
+    <input type="text" placeholder="Cra 22 #22c -22">
+    <input type="tex" placeholder="Cra 22 #22c -22">
+    <p><strong><h3>Seleccione El Tipo De Domicilio</h3></strong></p>
+    <input type="radio"> <strong>Casa</strong> <input type="radio"> <strong>Apartamento</strong><input type="radio"> <strong>Finca</strong><input type="radio"><strong>Otro</strong>
+    <p><strong><h3>Especifique "Otro"</h3></strong></p>
+    <input type="text">
+    <p><strong><h3>Numero De Integrantes Del Domicilio</h3></strong></p>
+    <input type="text">
+    <div class="derecha2">
+    <p><strong><h3>¿Porque Quieres Adoptar Una Mascota?</h3></strong></p>
+    <input type="text">
+    <p><strong><h3>Tienes Otras Mascotas</h3></strong></p>
+    <input type="radio"> <strong>Si</strong> <input type="radio"><strong>No</strong>
+  </div>
+    <p><strong><h3></h3>¿Tienes Experiencia Con Los Animales?</strong></p>
+    <input type="radio"><strong>Si</strong><input type="radio"><strong>No</strong> 
+    <p><strong><h3>¿Cuales Son Tus Ingresos Mensuales?</h3></strong></p>
+    <input type="number" placeholder="$500.000">
+    <p><strong><h3>¿Cuanto Tiempo Piensas Dedicarle A Tu Mascota?</h3></strong></p>
+    <input type="text">
+    <div class="derecha3">
+     <p><strong><h3>¿Cuantos Ingresos Dispones Para Tu Mascota?</h3></strong></p>
+    <input type="number" placeholder="$200.000">
+    <p><strong><h3>En caso de estar ausente por un tiempo, ¿quien cuidara de tu mascota?</h3></strong></p>
+    <input type="text">
+  </div>
+    <div class="boton2">
+      <button>
+        Guardar
+      </button>
+    </div>
+    <div class="boton3">
+      <button>
+        Boton De Respuestas
+      </button>
+    </div>
+    </form>
+  </section>
 </body>
 </html>
